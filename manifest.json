@@ -1,0 +1,20 @@
+{
+    "name": "Charbel Portfolio",
+    "short_name": "Cybta",
+    "start_url": ".",
+    "background_color": "#0c385d",
+    "theme_color": "#225983",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

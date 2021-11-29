@@ -1,0 +1,202 @@
+[
+    {
+        "day": 1,
+        "city": "El Chouf",
+        "places": [
+            {
+                "area": "Deir El Qamar",
+                "toDo": "Al Midan Square",
+                "img": "https://media-cdn.tripadvisor.com/media/photo-s/10/fb/c7/11/deir-al-kamar.jpg",
+                "map": "https://goo.gl/maps/UCYUW9jjV9zkeX6d7",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-1/DQ1-01.jpg",
+                        "assets/images/Area-1/DQ1-02.jpg",
+                        "assets/images/Area-1/DQ1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Deir El Qamar",
+                "toDo": "Kasr el mir Amin Restaurant",
+                "img": "https://b.zmtcdn.com/data/reviews_photos/a9c/3834368f6e1571c4839f4fa16f7f6a9c_1555602609.jpg",
+                "map": "https://goo.gl/maps/qi9CcYdFyd7zbUst8",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-1/DQ2-01.jpg",
+                        "assets/images/Area-1/DQ2-02.jpg",
+                        "assets/images/Area-1/DQ2-03.jpg",
+                        "assets/images/Area-1/DQ2-04.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Bet el din",
+                "toDo": "Kasr bet el din",
+                "img": "https://www.localguidesconnect.com/t5/image/serverpage/image-id/363291i7BDA8629E6A96100/image-dimensions/582x396?v=v2",
+                "map": "https://goo.gl/maps/h1ngTYD4yebNwnvy5",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-1/BED1-01.jpg",
+                        "assets/images/Area-1/BED1-02.jpg",
+                        "assets/images/Area-1/BED1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Kfarhim",
+                "toDo": "Kfarhim grotto",
+                "img": "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_94095/sunny-weekends-call-for-outdoor-activities-whil-2-23-2017-12-22-02-pm-l.jpg",
+                "map": "https://goo.gl/maps/nGs5yTEiMo5Mrj6c9",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-1/K1-01.jpg",
+                        "assets/images/Area-1/K1-02.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Baakleen",
+                "toDo": "Shalalat Al Zarka",
+                "img": "https://media-cdn.tripadvisor.com/media/photo-s/17/7a/45/eb/our-main-lake-al-zarka.jpg",
+                "map": "https://goo.gl/maps/JX1nwqfVsGJ3yB1u6",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-1/B1-01.jpg",
+                        "assets/images/Area-1/B1-02.jpg",
+                        "assets/images/Area-1/B1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            }
+        ]
+    },
+    {
+        "day": 2,
+        "city": "Metn",
+        "places": [
+            {
+                "area": "Dhour Chweir",
+                "toDo": "Kasr El Bouhayra",
+                "img": "https://b.zmtcdn.com/data/pictures/7/16503397/e3f9876cbd2a12e331f6e5ba159caa26.jpg",
+                "map": "https://g.page/QasrElBouhayra?share",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-2/KEB1-01.jpg",
+                        "assets/images/Area-2/KEB1-02.jpg",
+                        "assets/images/Area-2/KEB1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            }
+        ]
+    },
+    {
+        "day": 3,
+        "city": "Keserwen",
+        "places": [
+            {
+                "area": "Jbeil/Byblos",
+                "toDo": "El mina + Pubs",
+                "img": "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_80888/mina-jbeil-byblos-lebanon-byblos-jbeil-bay-yach-2-8-2017-7-53-29-pm-l.jpg",
+                "map": "https://goo.gl/maps/m1VJ6GnN51pUErqz9",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-3/J1-01.jpg",
+                        "assets/images/Area-3/J1-02.jpg",
+                        "assets/images/Area-3/J1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Batroun",
+                "toDo": "Beaches + Pubs",
+                "img": "https://i.pinimg.com/564x/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg",
+                "map": "https://goo.gl/maps/utgH23pxer7iAJ6m9",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-3/B1-01.jpg",
+                        "assets/images/Area-3/B1-02.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            }
+        ]
+    },
+    {
+        "day": 4,
+        "city": "North",
+        "places": [
+            {
+                "area": "Tanourin",
+                "toDo": "Belou3 Balaa",
+                "img": "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_181967/mowgli-and-balou-%EF%B8%8Fjoin-us-for-one-last-day-hike-5-22-2018-1-13-25-pm-l.jpg",
+                "map": "https://goo.gl/maps/KWpaccfJo6Thdxng9",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-4/T1-01.jpg",
+                        "assets/images/Area-4/T1-02.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Akoura",
+                "toDo": "The Highest Event, Saydet el Qarn, Aaqoura",
+                "img": "https://images-lebtivity.s3.amazonaws.com/content/versions/102387/1900-1294-0-0/sunset_hiking_akoura_lakes_with_lebanese_explorers.jpeg",
+                "map": "https://goo.gl/maps/dR8XYQX3JJUfguT69",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-4/A1-01.jpg",
+                        "assets/images/Area-4/A1-02.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Hasroun",
+                "toDo": "Check the town",
+                "img": "https://i.pinimg.com/originals/41/f2/58/41f2580b354c9ae4dace268863b1b646.jpg",
+                "map": "https://goo.gl/maps/bUU8Bb8sq6ypG5sX8",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-4/H1-01.jpg",
+                        "assets/images/Area-4/H1-02.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            },
+            {
+                "area": "Beshari",
+                "toDo": "the Cedars of god",
+                "img": "http://website.bcharri.net/wp-content/uploads/2016/06/1137_cedars1.jpg",
+                "map": "https://goo.gl/maps/9YYBVoRZhC6dYcaK9",
+                "description": {
+                    "gallery": [
+                        "assets/images/Area-4/B1-01.jpg",
+                        "assets/images/Area-4/B1-02.jpg",
+                        "assets/images/Area-4/B1-03.jpg"
+                    ],
+                    "desc": "Lorem Ipsum dolor set amet"
+                },
+                "status": false
+            }
+        ]
+    }
+]

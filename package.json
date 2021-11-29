@@ -1,0 +1,12 @@
+{
+  "name": "liana-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=1111"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
