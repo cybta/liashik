@@ -176,9 +176,8 @@ input[type="checkbox"]:checked + label {
   top: 50%;
   transform: translateY(-50%);
   margin-top: -60px;
-  width: 18vw;
-  padding: 3.5% 0;
-  max-width: 90px;
+  width: 93px;
+  height: 37px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
