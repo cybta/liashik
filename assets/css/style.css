@@ -176,7 +176,6 @@ input[type="checkbox"]:checked + label {
   top: 50%;
   transform: translateY(-50%);
   margin-top: -60px;
-  width: 93px;
   height: 37px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -276,6 +275,7 @@ input[type="checkbox"]:checked + label {
   margin: 5px;
   display: flex;
   align-items: center;
+  font-family: "Lora", serif;
 }
 
 .pageNav.active {
@@ -336,6 +336,7 @@ input[type="checkbox"]:checked + label {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   z-index: 999;
+  font-family: "Lora", serif;
 }
 
 #lang > div {

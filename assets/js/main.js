@@ -149,7 +149,7 @@ const renderDOM = async () => {
             return `<div class="pageNav" id="btn-${day.day}" data-page="${
               day.day
             }">
-                <span><span class="showOnActive">AREA</span>${day.day}</span>
+                <span><span class="showOnActive">${state.lang === 'EN' ? 'Area' : 'Площадь'}</span>${day.day}</span>
                 <div class="showOnActive">${getCheckStatus()}</div>
             </div>`;
           };
