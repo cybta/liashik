@@ -29,7 +29,15 @@ const renderDOM = async () => {
       data.map((day, i) => {
         if (i == state.page - 1) {
           $("#app").innerHTML = "";
-          state.lang === "EN" ? $('#app').classList.add("EN") : $('#app').classList.add("RU") ;
+
+          if(state.lang === "EN"){
+            $('#app').classList.add("EN")
+            $('#app').classList.remove("RU") ;
+          } else{
+            $('#app').classList.remove("EN")
+            $('#app').classList.add("RU") ;
+          }
+          
           const places = day.places;
           const getPlaces = () => {
             let listOfPlaces = "";

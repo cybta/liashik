@@ -196,16 +196,17 @@ input[type="checkbox"]:checked + label {
 }
 
 .EN .carousel-nav > div:after{
-  bottom: -5px;
-  font-size: .9rem;
+  bottom: 7px;
+  font-size: .8rem;
   content: "Attraction"
 }
 
 .RU .carousel-nav > div:after{
   bottom: 7px;
-  font-size: .9rem;
+  font-size: .8rem;
   content: "место"
 }
+
 .carousel-nav > div:before{
   font-family: "Lora", serif;
   top: -15px;
