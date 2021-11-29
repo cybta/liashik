@@ -29,6 +29,7 @@ const renderDOM = async () => {
       data.map((day, i) => {
         if (i == state.page - 1) {
           $("#app").innerHTML = "";
+          state.lang === "EN" ? $('#app').classList.add("EN") : $('#app').classList.add("RU") ;
           const places = day.places;
           const getPlaces = () => {
             let listOfPlaces = "";
@@ -53,6 +54,8 @@ const renderDOM = async () => {
                   `;
                 thumbs.push(letThumb);
               });
+
+              const newThumbs = thumbs.join("")
 
               const aPlace = `
                     <div class="place" data-bg="${index}" style="background-image:url(${
@@ -80,7 +83,7 @@ const renderDOM = async () => {
                                     <h1>${place.toDo}</h1>
                                 </div>
                                 <div class="gallery">
-                                    ${thumbs}
+                                    ${newThumbs}
                                 </div>
                             </div>
                         </div>
@@ -96,7 +99,7 @@ const renderDOM = async () => {
                 <div class="carouselWrapper">${getPlaces()}</div>
                 ${
                   places.length > 1
-                    ? '<div id="previous" class="previous carousel-nav"></div><div id="next" class="next carousel-nav"></div>'
+                    ? '<div id="previous" class="previous carousel-nav"><div><span class="icon-prev"></span></div></div><div id="next" class="next carousel-nav"><div><span class="icon-next"></span></div></div>'
                     : ""
                 }
             </div>`;
