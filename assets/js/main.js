@@ -294,16 +294,16 @@ const renderDOM = async () => {
           }
           const getcalcDistance = (start, end) => {
             const calcDistance = start - end
-            if(touchData.state === true){
               if(calcDistance > 110){
                 getNextAttraction()
               } else if(calcDistance < - 110){
                 getPrevAttraction()
               }
-            }
           }
-
-          getcalcDistance(touchData.start, touchData.move)
+          
+          if(touchData.state === true){
+            getcalcDistance(touchData.start, touchData.move)
+          }
         }
 
         document.querySelector('body').addEventListener('touchstart', ts)
