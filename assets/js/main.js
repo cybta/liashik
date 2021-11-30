@@ -282,19 +282,24 @@ const renderDOM = async () => {
         const ts = (ev) => {
           switch(ev.type){
             case 'touchstart':
+              touchData.state = false
               touchData.start = ev.touches[0].pageX
               break;
             case 'touchmove':
               touchData.move = ev.touches[0].pageX
               break;
+            case 'touchend':
+              touchData.state = true;
+              break;
           }
           const getcalcDistance = (start, end) => {
             const calcDistance = start - end
-
-            if(calcDistance > 110){
-              getNextAttraction()
-            } else if(calcDistance < - 110){
-              getPrevAttraction()
+            if(touchData.state === true){
+              if(calcDistance > 110){
+                getNextAttraction()
+              } else if(calcDistance < - 110){
+                getPrevAttraction()
+              }
             }
           }
 
@@ -302,7 +307,7 @@ const renderDOM = async () => {
         }
 
         document.querySelector('body').addEventListener('touchstart', ts)
-        // document.querySelector('body').addEventListener('touchend', ts)
+        document.querySelector('body').addEventListener('touchend', ts)
         document.querySelector('body').addEventListener('touchmove', ts)
 
 
