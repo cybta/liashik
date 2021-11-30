@@ -259,21 +259,59 @@ const renderDOM = async () => {
       animateCarousel();
 
       if (data[state.page - 1].places.length > 1) {
-        $("#next").addEventListener("click", () => {
+
+        let touchData = {}
+
+        const getNextAttraction = () => {
           if (counterCarousel === data[state.page - 1].places.length - 1) {
             counterCarousel = -1;
           }
           counterCarousel++;
           localStorage.setItem("counterCarousel", counterCarousel);
           animateCarousel();
-        });
+        }
 
-        $("#previous").addEventListener("click", () => {
+        const getPrevAttraction = () => {
           if (counterCarousel === 0) {
             counterCarousel = data[state.page - 1].places.length;
           }
           counterCarousel--;
           animateCarousel();
+        }
+
+        const ts = (ev) => {
+          switch(ev.type){
+            case 'touchstart':
+              touchData.start = ev.touches[0].pageX
+              break;
+            case 'touchmove':
+              touchData.move = ev.touches[0].pageX
+              break;
+          }
+          const getcalcDistance = (start, end) => {
+            const calcDistance = start - end
+
+            if(calcDistance > 110){
+              getNextAttraction()
+            } else if(calcDistance < - 110){
+              getPrevAttraction()
+            }
+          }
+
+          getcalcDistance(touchData.start, touchData.move)
+        }
+
+        document.querySelector('body').addEventListener('touchstart', ts)
+        // document.querySelector('body').addEventListener('touchend', ts)
+        document.querySelector('body').addEventListener('touchmove', ts)
+
+
+        $("#next").addEventListener("click", () => {
+          getNextAttraction()
+        });
+
+        $("#previous").addEventListener("click", () => {
+          getPrevAttraction()
         });
       }
 
