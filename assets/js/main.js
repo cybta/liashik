@@ -294,9 +294,9 @@ const renderDOM = async () => {
           }
           const getcalcDistance = (start, end) => {
             const calcDistance = start - end
-              if(calcDistance > 110){
+              if(calcDistance > 200){
                 getNextAttraction()
-              } else if(calcDistance < - 110){
+              } else if(calcDistance < - 200){
                 getPrevAttraction()
               }
           }
