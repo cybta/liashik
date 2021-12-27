@@ -279,36 +279,36 @@ const renderDOM = async () => {
           animateCarousel();
         }
 
-        const ts = (ev) => {
-          switch(ev.type){
-            case 'touchstart':
-              touchData.state = false
-              touchData.start = ev.touches[0].pageX
-              break;
-            case 'touchmove':
-              touchData.move = ev.touches[0].pageX
-              break;
-            case 'touchend':
-              touchData.state = true;
-              break;
-          }
-          const getcalcDistance = (start, end) => {
-            const calcDistance = start - end
-              if(calcDistance > 150){
-                getNextAttraction()
-              } else if(calcDistance < - 150){
-                getPrevAttraction()
-              }
-          }
+        // const ts = (ev) => {
+        //   switch(ev.type){
+        //     case 'touchstart':
+        //       touchData.state = false
+        //       touchData.start = ev.touches[0].pageX
+        //       break;
+        //     case 'touchmove':
+        //       touchData.move = ev.touches[0].pageX
+        //       break;
+        //     case 'touchend':
+        //       touchData.state = true;
+        //       break;
+        //   }
+        //   const getcalcDistance = (start, end) => {
+        //     const calcDistance = start - end
+        //       if(calcDistance > 150){
+        //         getNextAttraction()
+        //       } else if(calcDistance < - 150){
+        //         getPrevAttraction()
+        //       }
+        //   }
           
-          if(touchData.state === true){
-            getcalcDistance(touchData.start, touchData.move)
-          }
-        }
+        //   if(touchData.state === true){
+        //     getcalcDistance(touchData.start, touchData.move)
+        //   }
+        // }
 
-        document.querySelector('body').addEventListener('touchstart', ts)
-        document.querySelector('body').addEventListener('touchend', ts)
-        document.querySelector('body').addEventListener('touchmove', ts)
+        // document.querySelector('body').addEventListener('touchstart', ts)
+        // document.querySelector('body').addEventListener('touchend', ts)
+        // document.querySelector('body').addEventListener('touchmove', ts)
 
 
         $("#next").addEventListener("click", () => {
